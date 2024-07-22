@@ -1,0 +1,464 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.flex-all-center{
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color:#c0c0c03b;
+}
+footer{
+    height: 10vh;
+    background: #212121;
+    background-color: rgb(33 33 33);
+    color: white;
+    width: 1360px;
+    margin: -13px;
+}
+.header{
+    height: 12vh;
+    size: 24px;
+
+}
+nav{
+    background-color: white;
+    height: 80px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.sliderimage{
+    width: 1340px;
+    margin-left: 15px;
+}
+.imageexe{
+    width: 1340px;
+    margin-left: 15px;
+}
+.slideshowcontainer{
+    position: relative;
+    margin: auto;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+.Image1{
+    height: 40px;
+    width: 150px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Image2{
+    width: 70px;
+    height: 70px;
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.Image3{
+    height: 70px;
+    width: 70px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.Image4{
+    height: 70px;
+    width: 70px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.Image5{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.Image6{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.Image7{
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.Image8{
+    width: 100px;
+    cursor: pointer;
+}
+.Image9{
+    height: 70px;
+    width: 70px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.Image10{
+    margin-left: 45px;
+    cursor: pointer;
+}
+.hero-section-left-img{
+    margin: 0;
+    margin-left: 650px;
+}
+.image-1{
+     height: 40px;
+     width: 40px;
+}
+.search-section{
+    font-size: larger;
+    margin: 0;
+    margin-left: 270px;
+    margin-top: -65px;
+}
+input{
+    width: 50%;
+    height: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #00000029;
+    background-color: #2121210a;
+}
+.search{
+    font-size: larger;
+}
+.placeholder{
+    font-size: larger;
+}
+.fa-regular{
+    margin-left: 23px;
+}
+p{
+    margin: 0;
+    margin-left: 600px;
+    cursor: pointer;
+    margin-top: -33px;
+}
+ul{
+    display: inline grid;
+    list-style: none;
+}
+ul li1{
+    margin: 5px;
+    padding: 25px;
+    font-size: large;
+    color:black;
+    cursor: pointer;
+    margin-top: -20px;
+}
+ul li2{
+    margin: 4px;
+    padding: 25px;
+    font-size: large;
+    color: black;
+    cursor: pointer;
+    margin-top: -20px;
+}
+ul li3{
+    margin: 4px;
+    padding: 25px;
+    font-size: large;
+    color:black;
+    cursor: pointer;
+    margin-top: -20px;
+}
+ul li4{
+    margin: 4px;
+    padding: 25px;
+    font-size: large;
+    color:black;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+ul li5{
+    margin: 4px;
+    padding: 25px;
+    font-size: large;
+    color: black;
+    cursor: pointer;
+    margin-top: -20px;
+}
+ul li6{
+    margin: 4px;
+    padding: 25px;
+    font-size: large;
+    color:black;
+    cursor: pointer;
+    margin-top: -20px;
+}
+ul li7{
+    margin: 4px;
+    padding: 25px;
+    font-size: large;
+    color: black;
+    cursor: pointer;
+    margin-top: -20px;
+}
+ul li8{
+    margin:4px;
+    padding: 25px;
+    font-size: large;
+    color: black;
+    cursor: pointer;
+    margin-top: -20px;
+    
+}
+ul li9{
+    margin: 4px;
+    padding: 25px;
+    font-size: large;
+    color: black;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.nav2{
+    background-color:white;
+    height: 140px;
+    width: 1340px;
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 85px;
+}
+.box2{
+    height: 370px;
+    background-color: white;
+    margin-left: 15px;
+    margin: 13px;
+}
+h1{
+    font-size: 25px;
+    margin-left: -13px;
+    padding: 23px;
+
+}
+h2{
+    font-size: 25px;
+    margin-left: -13px;
+    padding: 23px;
+}
+h3{
+    font-size: 25px;
+    margin-left: -13px;
+    padding: 23px;
+}
+.new-header{
+    background-color:coral;
+}
+.container{
+       container-type: inline-size;
+}
+@container (width < 650px){
+    .nav2{
+         width: 50%;
+         background-color: antiquewhite;
+        
+    }
+}
+.boxpass{
+    height: 270px;
+    width: 200px;
+    border: 1px solid #00000029;
+    margin: 10px;
+    border-radius: 2%;
+}
+.earphones{
+    margin-left: 50px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.projector{
+    width: 200px;
+    margin-top: 25px;
+}
+.monitors{
+    width: 200px;
+    margin-top: 25px;
+}
+.box3{
+    height: 370px;
+    background-color: white;
+    margin-top: 30px;
+    width: 1340px;
+}
+.box4{
+    height: 370px;
+    width: 1342px;
+    background-color: white;
+    margin-top:315px;
+    margin-left: -1075px;
+}
+.span{
+    margin-left: 20px;
+}
+.boximage{
+    height: 270px;
+    width: 210px;
+    border: 1px solid #00000029;
+    margin-top: -225px;
+    margin-left: 210px;
+    border-radius: 2%;
+}
+.noisesmartwacthces{
+    margin-top: 15px;
+}
+.item-box-image3{
+    height: 270px;
+    width: 200px;
+    border: 1px solid #00000029;
+    margin-left: 220px;
+    margin-top: -230px;
+    border-radius: 2%;
+}
+.microcamera{
+    width: 200px;
+    margin-top: 23px;
+}
+.image-item4-image-section{
+    height: 270px;
+    width: 200px;
+    border: 1px solid #00000029;
+    margin-left: 210px;
+    margin-top: -175px;
+    border-radius: 2%;
+}
+.image2-container-sections{
+    height: 270px;
+    width: 200px;
+    border: 1px solid #00000029;
+    margin-left: 420px;
+    margin-top: -273px;
+    border-radius: 2%;
+
+}
+.toys-section-boxes{
+    height: 270px;
+    width: 200px;
+    border: 1px solid #00000029;
+    margin-left: 10px;
+    border-radius: 2%;
+}
+.toys-setion-boxes-image{
+    height: 270px;
+    width: 210px;
+    border: 1px solid #00000029;
+    margin-left: 210px;
+    margin-top: -1.5px;
+    border-radius: 2%;
+}
+.beauty-sections-images3{
+    height: 272px;
+    width: 202px;
+    border: 1px solid #00000029;
+    margin-left: 218px;
+    margin-top: -1.5px;
+    border-radius: 2%;
+}
+.foods-toys-beauty-items-images{
+    height: 272px;
+    width: 202px;
+    border: 1px solid #00000029;
+    margin-left: 210px;
+    margin-top: -1.5px;
+    border-radius: 2%;
+}
+.all-mores-any-items-section-images{
+    height: 270px;
+    width: 202px;
+    border: 1px solid #00000029;
+    margin-left: 210px;
+    margin-top: -1.5px;
+    border-radius: 2%;
+}
+.all-images-property-section-slides{
+    height: 270px;
+    width: 202px;
+    border: 1px solid #00000029;
+    margin-left: 210px;
+    margin-top: -1.5px;
+    border-radius: 2%;
+}
+.healthcare-sections-items{
+    height: 272px;
+    width: 202px;
+    border: 1px solid #00000029;
+    margin-left: 10px;
+    border-radius: 2%;
+}
+.sport-cricket-all-sports-kits{
+    height: 272px;
+    width: 202px;
+    border-radius: 2%;
+    border: 1px solid #00000029;
+    margin-left: 210px;
+    margin-top: -1.5px;
+}
+.best-of-electronics-items-image{
+    height: 272px;
+    width: 202px;
+    border: 1px solid #00000029;
+    border-radius: 2%;
+    margin-left: 210px;
+    margin-top: -195px;
+}
+.all-kits-available{
+    height: 272px;
+    width: 202px;
+    border: 1px solid #00000029;
+    margin-left: 210px;
+    border-radius: 2%;
+    margin-top: -1px;
+}
+.body-health-check-up-kits{
+    height: 272px;
+    width: 202px;
+    border: 1px solid #00000029;
+    border-radius: 2%;
+    margin-left: 210px;
+    margin-top: -1px;
+
+}
+.avilable-all-general-stores-parts{
+    height: 272px;
+    width: 202px;
+    border: 1px solid #00000029;
+    border-radius: 2%;
+    margin-left: 210px;
+    margin-top: -1px;
+}
+.poisiton-level-grocery-stores-avilable{
+    height: 272px;
+    width: 202px;
+    border: 1px solid #00000029;
+    border-radius: 2%;
+    margin-left: 210px;
+    margin-top: -1px;
+}
